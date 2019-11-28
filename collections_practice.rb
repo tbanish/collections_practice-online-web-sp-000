@@ -29,8 +29,6 @@ def reverse_array(array)
 end
 
 
-
-
 def kesha_maker(array)
   array.each do |index|
     index[2] = "$"
@@ -38,7 +36,10 @@ def kesha_maker(array)
 end
 
 
-
+def find_a(array)
+  array.find do |word|
+    
+end
 
 
 
