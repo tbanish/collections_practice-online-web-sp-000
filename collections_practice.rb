@@ -37,7 +37,7 @@ end
 
 
 def find_a(array)
-  array.map {|word| word.match(/\A[a]\w+\z/)}
+  array.map {|word| word == (/\A[a]\w+\z/)}
 end
 
 
