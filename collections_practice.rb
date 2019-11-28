@@ -37,8 +37,9 @@ end
 
 
 def find_a(array)
-  array.find {|word| word.match(/\A[a]/)}
-  array
+  new_arr = []
+  array.find {|word| new_arr << word.match(/\A[a]/)}
+  new_arr
 end
 
 
