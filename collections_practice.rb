@@ -37,7 +37,7 @@ end
 
 
 def find_a(array)
-  array.find do |word|
+  array.find {|word| word = 
     
 end
 
