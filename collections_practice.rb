@@ -37,7 +37,11 @@ end
 
 
 def find_a(array)
-  array.map {|word| word.scan(/\A[a]\w+\z/)}
+  array.map do |word|
+    if word.match(/\A[a]/)
+      return word
+    end
+  end
 end
 
 
