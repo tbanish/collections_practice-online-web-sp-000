@@ -37,7 +37,7 @@ end
 
 
 def find_a(array)
-  array.find {|word| word.scan(/\A[a]/)}
+  array.scan(/\A[a]/)
 end
 
 
