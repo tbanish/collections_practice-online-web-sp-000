@@ -37,7 +37,8 @@ end
 
 array = ["apple", "orange", "pear", "avis"]
 def find_a(array)
-  array.find
+  array.select do |word|
+    
 end
 
 
