@@ -37,7 +37,7 @@ end
 
 
 def find_a(array)
-  array.find(/\A[a]/)
+  array.match(/\A[a]/)
 end
 
 
