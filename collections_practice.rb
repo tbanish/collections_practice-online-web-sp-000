@@ -38,7 +38,8 @@ end
 array = ["apple", "orange", "pear", "avis"]
 def find_a(array)
   array.select do |word|
-    
+    word.match(/\A[a]/)
+  end
 end
 
 
