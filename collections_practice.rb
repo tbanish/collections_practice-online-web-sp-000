@@ -35,9 +35,9 @@ def kesha_maker(array)
   end
 end
 
-
+array = ["apple", "orange", "pear", "avis"]
 def find_a(array)
-  array.match(/\A[a]/)
+  array.find
 end
 
 
